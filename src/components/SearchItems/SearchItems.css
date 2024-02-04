@@ -1,0 +1,16 @@
+@media screen and (min-width:426px) and (max-width:768px)
+{
+   
+  .search-list img{
+    width:200px;
+  }
+    
+}
+@media only screen and (max-width:425px) {
+    
+    .search-list img{
+        width:150px;
+      }
+    
+    
+}

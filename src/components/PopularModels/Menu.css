@@ -1,0 +1,38 @@
+.tabs{
+    margin-left: 200px;
+   
+}
+.nav-tabs .nav-link{
+    color: black !important;
+}
+.nav-tabs .nav-link:hover{
+    color: rgb(238, 19, 67) !important;
+}
+
+@media screen and (min-width:426px) and (max-width:768px)
+{
+   .features-tab img{
+    width: 180px;
+   }
+}
+@media only screen and (max-width:425px) {
+    
+   
+    .tabs{
+        margin: 5px;
+        width: 100%;
+       
+    }
+    .features-tab img{
+        width: 120px;
+       }
+       .features-tab .col{
+         width:150px;
+       }
+       .features-tab h4,h6{
+        font-size: 12px;
+       }
+    
+}
+
+

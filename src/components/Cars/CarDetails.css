@@ -1,0 +1,33 @@
+@media only screen and (max-width:425px) {
+    .car-details img{
+      width: 200px;
+    }
+    
+    .car-details h5{
+        font-size: 20px;
+    }
+    .car-details h3{
+        font-size: 20px;
+    }
+    .more-offer-button button{
+        padding:4px;
+        font-size: 10px;
+    }
+    
+  }
+  @media screen and (min-width:426px) and (max-width:768px){
+      
+  }
+  .more-offer-button button{
+    background-color: rgb(253, 253, 248);
+    border: 0.2px ridge red;
+    color: black;
+  }
+  .more-offer-button button:hover{
+    background-color: chocolate;
+  }
+  .car-details .description{
+   font-size: 20px;
+   margin-bottom: 20px;
+   color: rgb(105, 101, 101);
+ }

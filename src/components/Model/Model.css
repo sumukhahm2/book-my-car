@@ -1,0 +1,22 @@
+
+
+.section1 img{
+  width: 120px;
+ 
+}
+
+@media only screen and (max-width:425px) {
+  .models{
+    width: 100%;
+    
+  }
+  .section1 img{
+    width: 50px;
+  }
+
+}
+@media screen and (min-width:426px) and (max-width:768px){
+    .section1 img{
+        width: 100px;
+      }
+}
